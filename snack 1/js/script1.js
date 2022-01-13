@@ -19,3 +19,18 @@ for (let r = 0; r < 5; r++ ){
 
 console.log (somma);
 console.log (numb);
+
+/* Ciclo WHILE */
+
+let somma = 0;
+let r = 0;
+
+while (r < 5);{
+    const numb = parseInt(prompt('INSERISCI UN NUMERO!'));
+    if (!isNaN (numb)){
+        somma += numb;
+    }
+}
+
+r++;
+
