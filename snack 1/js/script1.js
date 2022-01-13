@@ -6,3 +6,16 @@ Il programma stampa la somma di tutti i numeri inseriti.
 Esegui questo programma in 2 versioni, con il FOR e con il WHILE.
 */
 
+/* Ciclo FOR */
+
+let somma = 0
+
+for (let r = 0; r < 5; r++ ){
+    const numb = parseInt(prompt('INSERISCI UN NUMERO!'));
+    if (!isNaN (numb)){
+        somma += numb;
+    }
+}
+
+console.log (somma);
+console.log (numb);
